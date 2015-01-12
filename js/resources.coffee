@@ -4,7 +4,7 @@
 app = angular.module 'resourcesApp', []
 
 app.controller 'ResourcesController', ['$scope', ($scope) ->
-  $scope.foo = 'bar'
+  $scope.url = '/openresources-demo/resource.html'
   $scope.categories = categories_list
   console.log $scope.categories
   console.log $scope.categories[0]

@@ -17,7 +17,7 @@ layout: default
   </form>
 
   <div class="list-group">
-    <a href="/resource.html" class="list-group-item" ng-repeat="cat in categories | filter:query">
+    <a href="{{ url }}" class="list-group-item" ng-repeat="cat in categories | filter:query">
       {{ cat.name }}
     </a>
   </div>
