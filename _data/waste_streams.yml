@@ -1,0 +1,11 @@
+---
+- name: paper
+  color: 0089D1
+  icons:
+    portrait_1:
+    landscape_1:
+    portrait_2:
+    landscape_2:
+  streams:
+  - name: 'newspapers & magazines'
+

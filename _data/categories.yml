@@ -1,0 +1,4 @@
+---
+- name: bicycles
+  waste_stream:
+    color: fff
